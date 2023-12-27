@@ -28,10 +28,9 @@ with open(sys.argv[1],'r) as f:
     word=line.split()
     count+=line.(word)
 print("Word Count in File=",count)
-
+```
 ### OUTPUT:
 <img width="835" alt="image" src="https://github.com/MOHAMEDRIDWAN/command-line-arguments-to-count-word/assets/146993368/2d2ab659-a58a-4f1d-80b5-7f11d62cff08">
-
 
 ## RESULT:
 Thus the program is written to find the word count from the contents of a file using command line arguments.
