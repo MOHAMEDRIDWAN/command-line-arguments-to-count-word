@@ -18,6 +18,16 @@ Anaconda - Python 3.7
 ### Step 6: 
 
 ## PROGRAM:
+```
+#Developev by: Mohamed Ridwan A
+#Referebce Number
+import sys
+count=0
+with open(sys.argv[1],'r) as f:
+    for line in f:
+    word=line.split()
+    count+=line.(word)
+print("Word Count in File=",count)
 
 ### OUTPUT:
 
